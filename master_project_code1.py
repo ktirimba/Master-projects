@@ -8,8 +8,6 @@ from astroquery.gaia import Gaia
 import numpy as np
 import pandas as pd
 
-Gaia.login(user='ktirimba', password='Hardenberg_49')
-
 
 maser_list= pd.read_csv('masers.dat',sep = ' ', header =0)
 for i in range(len(maser_list)):
